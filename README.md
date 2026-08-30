@@ -1,16 +1,138 @@
-# React + Vite
+# 🎬 ReelDiary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Your personal movie diary for the films you loved, hated, and survived emotionally.**
 
-Currently, two official plugins are available:
+ReelDiary is a personal movie-tracking web application built with React and Vite. It lets you discover movies, track what you've watched, build a watchlist, rate your favorites, write personal memories, and explore your movie-watching habits through insights.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 Live Demo: https://reel-diary-rho.vercel.app/
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🎬 Movie Search & Discovery
 
-## Expanding the ESLint configuration
+- Search for movies using the OMDb API
+- Get movie suggestions while typing
+- View movie posters, release year, genre, plot, runtime, and cast
+- Add movies directly to your diary
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ❤️ Movie Tracking
+
+- Rate movies using a heart-based rating system
+- Mark movies as Watched or add them to your Watchlist
+- Mark movies as Top Picks
+- Add personal memories and notes
+- Delete movies when needed
+
+### 📚 Organization
+
+- Recently Added movies
+- Top Picks
+- Watchlist
+- Watched movies
+- Genre filtering
+- Movie search
+- Sort by rating, alphabetical order, or release year
+
+### 📊 Insights
+
+ReelDiary provides statistics about your movie collection, including:
+
+- Total movies logged
+- Movies watched
+- Movies on your watchlist
+- Number of Top Picks
+- Average rating
+- Favorite genre
+- Highest-rated movie
+
+### 🎲 Fun Features
+
+- Movie Roulette
+- Genre Roulette
+- Hall of Fame
+- Interactive movie cards
+- Detailed movie information modals
+
+## 🛠️ Tech Stack
+
+- React
+- Vite
+- JavaScript
+- React Router
+- HTML5 & CSS3
+- OMDb API
+- LocalStorage
+- Git & GitHub
+- Vercel
+
+## 📱 Pages
+
+- 🏠 Home — Overview of your movie diary
+- ⭐ Top Picks — Your favorite movies
+- 🎞️ Watchlist — Movies you want to watch
+- ✅ Watched — Movies you've already watched
+- 📊 Insights — Movie-watching statistics and analytics
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed.
+
+### Installation
+
+Clone the repository:
+
+    git clone https://github.com/rachelanupama/Reel-Diary.git
+
+Navigate to the project:
+
+    cd Reel-Diary
+
+Install dependencies:
+
+    npm install
+
+Start the development server:
+
+    npm run dev
+
+## 💾 Data Storage
+
+The current version uses LocalStorage to save movie data in the browser.
+
+This means saved movies are tied to the browser and device being used.
+
+A backend and database are planned for a future version.
+
+## 🚧 Future Plans
+
+- Django backend
+- REST API
+- Database integration
+- User authentication
+- Cloud-based diary storage
+- Full diary entries
+- Watch dates and rewatch tracking
+- Personal movie reviews
+- Custom movie tags
+- Cross-device synchronization
+- Advanced movie analytics
+- Improved mobile experience
+
+## 🎯 Project Goal
+
+ReelDiary started as a React movie-tracking project and is being developed into something more personal — a place to record not just what you watched, but what each movie meant to you.
+
+The long-term goal is to turn ReelDiary into a complete personal movie diary with a backend, database, user accounts, and richer diary entries.
+
+## 👩‍💻 Author
+
+Rachel Anupama
+
+B.Tech Computer Science & Engineering
+
+⭐ If you like ReelDiary, consider starring the repository!
+
+🎬 Try ReelDiary Live:
+https://reel-diary-rho.vercel.app/
